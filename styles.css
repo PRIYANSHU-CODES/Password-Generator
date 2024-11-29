@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1A1A1D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #4E4E50;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    color: #C3073F;
+}
+
+.password-display {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#password-output {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #C3073F;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #F1F1F2;
+    color: #1A1A1D;
+}
+
+#copy-password {
+    margin-left: 10px;
+    padding: 10px 15px;
+    background-color: #C3073F;
+    color: #F1F1F2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #F1F1F2;
+}
+
+#password-length-slider {
+    flex-grow: 1;
+    accent-color: #C3073F;
+}
+
+#password-length-value {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #F1F1F2;
+}
+
+.password-strength {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.password-strength span {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #F1F1F2;
+}
+
+.password-strength-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.password-strength-0 {
+    background-color: #C3073F;
+}
+
+.password-strength-1 {
+    background-color: #FFA700;
+}
+
+.password-strength-2 {
+    background-color: #FFDD00;
+}
+
+.password-strength-3 {
+    background-color: #7FFF00;
+}
+
+.password-strength-4 {
+    background-color: #00FF00;
+}
+
+#generate-password {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #C3073F;
+    color: #F1F1F2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
